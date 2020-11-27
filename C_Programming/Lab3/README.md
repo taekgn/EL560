@@ -2,7 +2,7 @@
 We are concerned with calculating the centre of gravity of a number of weights. Each weight has a x coordinate, a y coordinate and a mass. The data for a set of weights is kept in a file, arranged one weight per line.
 You are required to write two functions to complete a program which will read this data from the file and
 calculate the resultant centre of gravity.
-1) Using the code given in the previous pages, read in data from a file. Use formatted input (hint: fscanf) to
+1) Using the code given in the previous pages, read in data from a file. Use formatted input **(hint: fscanf)** to
 read the data from your file. You must use the following structure for the x and y co-ordinates and mass:
 ```C
 struct cg {
