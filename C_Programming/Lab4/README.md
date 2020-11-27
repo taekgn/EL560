@@ -33,7 +33,7 @@ names and titles with spaces, e.g.
 ```C
 gets(str);
 ```
-to read characters from the standard input into a character array called str. Keep in mind that gets() does not
+to read characters from the standard input into a character array called str. Keep in mind that **gets()** does not
 let you specify a limit on how many characters are to be read so you must be careful with the size of the
 array pointed by str to avoid buffer overflows.
-You may also use fgets() although the usage differs from gets() slightly.
+You may also use **fgets()** although the usage differs from **gets()** slightly.
